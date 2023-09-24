@@ -2,12 +2,11 @@
 
 import TopBar from "@/components/top-bar";
 
-export default function Home() {
+export default function Dashboard() {
   return (
     <div>
-      <div>hello world</div>
       <TopBar />
-      <h1>Home Page</h1>
+      <h1>Dashboard Page</h1>
     </div>
   );
 }
