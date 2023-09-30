@@ -1,13 +1,13 @@
-'use client'
+"use client";
 import TopBar from "@/components/top-bar";
 
-function addSkill() {
+const AboutMe = () => {
   return (
     <div>
       <TopBar />
-      <h1>Add Skill Page</h1>
+      <h1>About Me Page</h1>
     </div>
   );
-}
+};
 
-export default addSkill;
+export default AboutMe;

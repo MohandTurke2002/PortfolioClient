@@ -1,11 +1,13 @@
 "use client";
 import TopBar from "@/components/top-bar";
 
-export default function Home() {
+const ContactMe = () => {
   return (
     <div>
       <TopBar />
-      <h1>Home Page</h1>
+      <h1>Contact Me Page</h1>
     </div>
   );
-}
+};
+
+export default ContactMe;
