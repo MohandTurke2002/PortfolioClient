@@ -1,17 +1,17 @@
-'use client'
+"use client";
 
-import { NextUIProvider } from '@nextui-org/react';
-import {ThemeProvider as NextThemesProvider} from 'next-themes'
-import React from 'react'
+import { NextUIProvider } from "@nextui-org/react";
+import { ThemeProvider as NextThemesProvider } from "next-themes";
+import React from "react";
 
-function Providers({children} : {children:React.ReactNode}) {
+function Providers({ children }: { children: React.ReactNode }) {
   return (
-    <NextUIProvider>
-    <NextThemesProvider attribute="class" defaultTheme="system">
-      {children}
-    </NextThemesProvider>
-  </NextUIProvider>
-  )
+    <NextUIProvider className="flex gap-x-8">
+      <NextThemesProvider attribute="class" defaultTheme="system">
+        {children}
+      </NextThemesProvider>
+    </NextUIProvider>
+  );
 }
 
-export default Providers
+export default Providers;

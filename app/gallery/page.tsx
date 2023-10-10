@@ -1,14 +1,11 @@
-'use client'
-import TopBar from '@/components/top-bar'
-
+"use client";
 
 const Gallery = () => {
   return (
     <div>
-      <TopBar />
       <h1>Gallery Page</h1>
     </div>
-  )
-}
+  );
+};
 
-export default Gallery
+export default Gallery;
